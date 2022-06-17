@@ -1,0 +1,43 @@
+.body{
+    background-color: #f6f6f5;
+    border: #fd495c 2px solid;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: block;
+}
+
+.header{
+    color:#00205c;
+    font-size: 60px;
+}
+
+.movie-box{
+    background-color: #fbfbfb;
+    border: #00205c 3px solid;
+    border-radius: 5px;
+    color:#00205c ;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    display: inline-block;
+    overflow: hidden;
+    min-height: 38rem;
+    max-height: 38rem;
+    min-width: 22rem;
+    max-width: 22rem;
+    flex-direction: column;
+}
+
+.movie-box:hover{
+    box-shadow: 2px 2px rgb(31, 52, 91);
+    cursor: pointer;
+}
+
+.imdbID{
+    font-size: x-small;
+}
